@@ -1,0 +1,46 @@
+//Write a program to print "C++ is cool".
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "C++ is cool";
+    
+    
+    return 0;
+}
+
+/*The given program outputs "C++".
+Change the code to output each character on a new line, resulting in:
+C
++
++*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+ 	//modify the given statement
+ 	cout << "C\n";
+ 	cout << "+\n";
+ 	cout << "+";
+
+ 	return 0;
+}
+
+/*
+You are given some code, which outputs "C++ is hard" and "C++ is cool".
+
+Task
+
+Comment out the first line to print only "C++ is cool".
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+        //cout << "C++ is hard" << endl;
+        cout << "C++ is cool" << endl;
+	return 0;
+}
